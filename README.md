@@ -14,11 +14,11 @@ That service have the responsability of send and emails and save in database the
 
 Clone the file env.properties.example to an file named env.properties in the same repository, so put your enverioment variables in that file.
 
-Now, the application is ready to start.
+Now, the application is listenen to your message broker (per default, is RabbitMQ) and are ready to start.
     
 ## API Documentation
 
-API route guide.
+If you want to use the api, the complete guide next.
 
 ## Send Email
 
