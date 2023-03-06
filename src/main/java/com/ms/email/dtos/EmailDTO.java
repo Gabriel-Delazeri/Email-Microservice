@@ -7,16 +7,16 @@ import lombok.Data;
 @Data
 public class EmailDTO {
 
-    @NotBlank
+    @NotBlank(message = "required")
     private String ownerRef;
-    @NotBlank
-    @Email
+    @NotBlank(message = "required")
+    @Email(message = "must be a valid email")
     private String emailFrom;
-    @NotBlank
-    @Email
+    @NotBlank(message = "required")
+    @Email(message = "must be a valid email")
     private String emailTo;
-    @NotBlank
+    @NotBlank(message = "required")
     private String subject;
-    @NotBlank
+    @NotBlank(message = "required")
     private String text;
 }
