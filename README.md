@@ -1,5 +1,7 @@
 
 # Email Microservice
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Gabriel-Delazeri/Email-Microservice/blob/master/LICENSE.md) 
+
 
 Email microservice developed using Java Spring.
 
